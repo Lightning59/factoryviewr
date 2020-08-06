@@ -26,7 +26,10 @@ RUN apk update && apk add git && go get -u -v \
         github.com/stamblerre/gocode \
         github.com/rogpeppe/godef \
         golang.org/x/tools/cmd/goimports \
-        golang.org/x/lint/golint 
+        golang.org/x/lint/golint \
+        github.com/revel/revel\
+        github.com/revel/cmd/revel
+
 
 # Copy and download dependency using go mod
 #COPY go.mod .
