@@ -13,6 +13,7 @@ main() {
     --name $container_name \
     --volume $local_workdir:$container_workdir \
     --workdir $container_workdir \
+    -p 9000:9000 -p 8000:8000 \
     factoryviewdev
 }
 

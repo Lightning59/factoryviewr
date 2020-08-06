@@ -50,6 +50,7 @@ RUN apk update && apk add git && go get -u -v \
 
 # Export necessary port
 EXPOSE 8000
+EXPOSE 9000
 
 # Command to run when starting the container
 #CMD ["/dist/main"]
